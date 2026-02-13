@@ -10,5 +10,17 @@ int main()
 		list.Add(i + 1);
 	}
 
+	//Range-based loop
+	for (const int item : list)
+	{
+		std::cout << item << std::endl;
+	}
+
+	//for (List<int>::Iterator it = list.begin();
+	//	it != list.end();
+	//	++it)
+	//{
+	//	std::cout << *it << std::endl;
+	//}
 	std::cin.get();
 }

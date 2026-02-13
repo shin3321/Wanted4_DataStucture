@@ -2,6 +2,6 @@
   <Configurations>
     <Platform Name="x64" />
   </Configurations>
-  <Project Path="1.Array/1.Array.vcxproj" />
-  <Project Path="2.Vector/2.Vector.vcxproj" />
+  <Project Path="1.Array/1.Array.vcxproj" Id="3523178a-540b-47b3-8967-ddb9f2f5a5ca" />
+  <Project Path="2.Vector/2.Vector.vcxproj" Id="fcaaf180-3273-4537-82bd-fb76aeec44bf" />
 </Solution>
