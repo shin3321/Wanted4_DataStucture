@@ -19,7 +19,7 @@ public:
 	}
 	~LinkedList()
 	{
-		//TOdo 메모리 정리
+		//메모리 정리
 		NodeType current = head;
 		NodeType next = nullptr;
 
