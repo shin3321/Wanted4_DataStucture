@@ -7,4 +7,6 @@
   <Project Path="3.LinkedList/3.LinkedList.vcxproj" Id="61d80357-9c3d-457a-beb8-46236c5f01e4" />
   <Project Path="4.DoublyLinkedList/4.DoublyLinkedList.vcxproj" Id="a0488ce5-7bb9-43fc-9ec5-bc91161d1465" />
   <Project Path="5.Stack/5.Stack.vcxproj" Id="6b9605ba-0614-491a-af4f-5770330dfc4d" />
+  <Project Path="6.StackMaze/6.StackMaze.vcxproj" Id="56b9f998-82e6-4b62-9e90-95bdf8f70e52" />
+  <Project Path="7.Queue/7.Queue.vcxproj" Id="9c8af091-fd91-40d4-8acf-b82c600c633d" />
 </Solution>
