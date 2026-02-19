@@ -22,7 +22,7 @@ public:
 		//추가
 		//추가ㅣ 인덱스가 배열 범위를 벗어나지 않도록
 
-		rear = (rear + 1) % (capacitiy + 1);
+		rear = (rear + 1) % (capacity + 1);
 		data[rear] = value;
 		return true;
 	}
@@ -30,19 +30,28 @@ public:
 	//추출함수
 	bool Dequeue(T& outValue)
 	{
-		//큐갸ㅏ ㅣ벙ㄲ이면 실랴
-		if (IsEmpty()
+		//큐가 비어 있으면 실패
+		if (IsEmpty())
 		{
 			return false;
 		}
 
-		//모듈러 
-		outValue = (front + 1) % (capacity + 1);
-			outValue = data[front];
+		front = (front + 1) % (capacity + 1);
+		outValue = data[front];
 
-			data[front] = T();
+		data[front] = T();
 		//	memset(&data[front], 0, sizeof(T));
-			return true;
+		return true;
+
+
+		//// 인덱스가 배열 범위 벗어나지 않도록.
+		//front = (front + 1) % (capacity + 1);
+		//outValue = data[front];
+
+		//// 값 비우기 (초기화).
+		//data[front] = T();
+		////memset(&data[front], 0, sizeof(T));
+		//return true;
 	}
 
 	//삭제하지 않고 제일 앞의 값 반환하는 함수
@@ -51,7 +60,7 @@ public:
 		if (IsEmpty())
 			return false;
 
-		outValue = data[(front + 1) % (capacity + 1)]
+		outValue = data[(front + 1) % (capacity + 1)];
 			return true;
 	}
 
@@ -59,10 +68,10 @@ public:
 	void Print()
 	{
 		std::cout << " 큐 내용 출력: ";
-		
+
 		//출력
-		const int max;
-		for (int i = front + 1; i <= max; ++i;)
+		const int max = (front < rear) ? rear : (rear + (capacity + 1));
+		for (int i = front + 1; i <= max; ++i)
 		{
 			std::cout << " " << data[i];
 		}

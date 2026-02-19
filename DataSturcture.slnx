@@ -9,4 +9,6 @@
   <Project Path="5.Stack/5.Stack.vcxproj" Id="6b9605ba-0614-491a-af4f-5770330dfc4d" />
   <Project Path="6.StackMaze/6.StackMaze.vcxproj" Id="56b9f998-82e6-4b62-9e90-95bdf8f70e52" />
   <Project Path="7.Queue/7.Queue.vcxproj" Id="9c8af091-fd91-40d4-8acf-b82c600c633d" />
+  <Project Path="8.QueueMaze/8.QueueMaze.vcxproj" Id="bd764894-7af5-4513-a509-801bc356052c" />
+  <Project Path="9.HashTable/9.HashTable.vcxproj" Id="28aa440a-f565-4085-ae93-c8bd0458e6fa" />
 </Solution>
