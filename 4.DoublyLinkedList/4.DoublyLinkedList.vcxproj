@@ -16,6 +16,7 @@
     <ProjectGuid>{a0488ce5-7bb9-43fc-9ec5-bc91161d1465}</ProjectGuid>
     <RootNamespace>My4DoublyLinkedList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>04.DoublyLinkedList</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

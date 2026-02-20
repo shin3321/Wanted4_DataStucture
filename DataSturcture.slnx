@@ -3,6 +3,7 @@
     <Platform Name="x64" />
   </Configurations>
   <Project Path="1.Array/1.Array.vcxproj" Id="3523178a-540b-47b3-8967-ddb9f2f5a5ca" />
+  <Project Path="10.Tree/10.Tree.vcxproj" Id="fbd5352f-0855-486c-8438-4a2bc6f4548a" />
   <Project Path="2.Vector/2.Vector.vcxproj" Id="fcaaf180-3273-4537-82bd-fb76aeec44bf" />
   <Project Path="3.LinkedList/3.LinkedList.vcxproj" Id="61d80357-9c3d-457a-beb8-46236c5f01e4" />
   <Project Path="4.DoublyLinkedList/4.DoublyLinkedList.vcxproj" Id="a0488ce5-7bb9-43fc-9ec5-bc91161d1465" />

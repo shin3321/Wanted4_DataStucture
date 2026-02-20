@@ -37,7 +37,7 @@ private:
 	//사용 가능한 소수 중에서 큰 수를 사용 
 	static const int bucketCount = 19;
 	
-	//이차 저장소 (해시 충돌 해결 방법으로 체이닝(chaining))
+	//2차 저장소 (해시 충돌 해결 방법으로 체이닝(chaining))
 	//늘어나면 성능이 안 좋아져서 resizing을 많이 함
 	std::vector<Entry> table[bucketCount];
 

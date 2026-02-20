@@ -16,7 +16,7 @@
     <ProjectGuid>{fcaaf180-3273-4537-82bd-fb76aeec44bf}</ProjectGuid>
     <RootNamespace>My2Vector</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>2.List</ProjectName>
+    <ProjectName>02.List</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

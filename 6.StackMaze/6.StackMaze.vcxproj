@@ -16,6 +16,7 @@
     <ProjectGuid>{56b9f998-82e6-4b62-9e90-95bdf8f70e52}</ProjectGuid>
     <RootNamespace>My6StackMaze</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>06.StackMaze</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

@@ -58,12 +58,8 @@ bool HashTable::Add(const std::string& key, const std::string& value)
 
 	//중복된 키가 없다면 자료 추가
 	position.emplace_back(Entry(key, value));
-
-
 	return true;
-}
-
- 
+} 
 
 bool HashTable::Delete(const std::string& key)
 {
