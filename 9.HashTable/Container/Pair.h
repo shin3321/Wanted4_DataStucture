@@ -16,7 +16,7 @@ public:
 	{
 	}
 
-	Pair(KeyType key, ValueType value)
+	Pair(const KeyType& key, const ValueType& value)
 		:key(key), value(value)
 	{
 	}
