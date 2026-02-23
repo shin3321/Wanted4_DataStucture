@@ -16,4 +16,13 @@ int main()
 	//삭제
 	tree.DeleteNode(30);
 	tree.DeleteNode(10);
+
+	//전위 순회
+	tree.PreorderTraverse();
+
+	//중위 순회
+	tree.InorderTraverse();	
+	
+	//후위 순회
+	tree.PostorderTraverse();
 }
