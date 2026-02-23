@@ -32,6 +32,9 @@ public:
 		//리소스 정리
 		data = T();
 		parent = nullptr;
+	/*	for (Node<T>* child : children) {
+			delete child;
+		}*/
 		children.clear();
 	}
 

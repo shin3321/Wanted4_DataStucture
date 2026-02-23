@@ -18,6 +18,7 @@ public:
 	{
 		// 자손 노드 모두 제거하는 함수 구현 후 호출
 		DestroyRecursive(root);
+	//	delete root;
 	}
 
 public:
@@ -121,6 +122,7 @@ private:
 				auto it = std::find(parent->GetChildren().begin(), parent->GetChildren().end(), outNode);
 				parent->GetChildren().erase(it);
 			}
+
 			//노드가 자손이 있다면 자손 노드 제거
 			std::vector<Node<T>*>& children = outNode->GetChildren();
 			while (children.size() > 0)
@@ -174,11 +176,15 @@ private:
 	//모든 노드를 제거하는 함수 (트리 파괴)
 	void DestroyRecursive(Node<T>* node)
 	{
+		//하위 노드 가져오기
 		std::vector<Node<T>*>& children = node->GetChildren();
+
+		//자식 노드가 없어질 때까지
 		while (children.size() > 0)
 		{
 			DestroyRecursive(children[0]);
 		}
+
 		//부모 목록에서 노드 정리
 		Node<T>* parent = node->GetParent();
 		if (parent)
